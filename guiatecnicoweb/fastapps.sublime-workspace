@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pas",
+				"password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Controller/Component/VideosComponent.php",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Controller/Component/AccessComponent.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Config/database.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Controller/PagesController.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Controller/AppController.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/View/Users/login.ctp",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Controller/Component/ChurchesComponent.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/View/Elements/navigation.ctp",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/View/Layouts/default.ctp",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Model/User.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Controller/UsersController.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/app/Config/routes.php",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/lib/Cake/Test/test_app/View/Elements/Flash/default.ctp",
+		"/Users/Ricardo/cakebox/Apps/fastapps.app/build.properties",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Config/routes.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/ApiController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/Component/ServicesComponent.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/Component/DoctorsComponent.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/Component/AccessComponent.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/UsersController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/AppController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/PagesController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Model/User.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Model/Doctor.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/DoctorsController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Elements/navigation.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/Component/empty",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/ServicesDoctorsController.php",
+		"/Users/Ricardo/Cake-Plugins/codecanyon-3142838-cakephp-tree-manage-build-multilevel-menu-plugin/TreeMenu/webroot/js/treetable/jquery.treeTable.css",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Services/add.ctp",
+		"/Users/Ricardo/Cake-Plugins/codecanyon-3142838-cakephp-tree-manage-build-multilevel-menu-plugin/TreeMenu/Controller/CategoriesController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/ServicesController.php",
+		"/Users/Ricardo/Cake-Plugins/codecanyon-3142838-cakephp-tree-manage-build-multilevel-menu-plugin/TreeMenu/Model/Category.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Model/Service.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Services/lista.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Model/Behavior/SluggableBehavior.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Model/Appointment.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Pages/home.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/docs/docs.txt",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Users/add.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/UsersExamsController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/AddressesController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/AppointmentsController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/CategoriesController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Controller/ClinicsController.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/Config/database.php",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Users/login.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app/View/Layouts/login.ctp",
+		"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/build.xml",
+		"/Users/Ricardo/Downloads/bra/app/Model/Neighborhood.php",
+		"/Users/Ricardo/Downloads/bra/app/View/Neighborhoods/admin_add.ctp",
+		"/Users/Ricardo/Downloads/bra/app/View/Neighborhoods/admin_edit.ctp",
+		"/Users/Ricardo/Downloads/bra/app/View/Neighborhoods/admin_index.ctp",
+		"/Users/Ricardo/Downloads/bra/app/Model/House.php",
+		"/Users/Ricardo/Downloads/bra/app/Controller/Neighborhoods.php",
+		"/Users/Ricardo/Downloads/bra/app/View/Elements/admin/dashboard.ctp",
+		"/Users/Ricardo/Downloads/bra/app/Controller/core.php",
+		"/Users/Ricardo/Downloads/bra/app/View/Users/admin_home.ctp",
+		"/Users/Ricardo/cakebox/Apps/bradockimoveis.app/app/View/Pages/home.ctp",
+		"/Users/Ricardo/cakebox/Apps/bradockimoveis.app/.gitignore",
+		"/Users/Ricardo/cakebox/Apps/teste/index.php",
+		"/Users/Ricardo/cakebox/Cakebox.yaml",
+		"/Users/Ricardo/cakebox/Vagrantfile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Ricardo/cakebox/Apps/saude-e-vida.app/app",
+			"/Users/Ricardo/projetos/colegioqi/app/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contain",
+			"_Service",
+			"_ServicesDoctors",
+			"status",
+			"ForbiddenException",
+			"_validateAccess",
+			"alias",
+			"get_menu_categories",
+			"check",
+			"categoryAlias",
+			"Category",
+			"categories",
+			"'service'",
+			"services",
+			"category",
+			"categoryAlias",
+			"bairro",
+			"neighborhood_id",
+			"house",
+			"House"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Service",
+			"services",
+			"'Service'",
+			"service",
+			"services",
+			"Neighborhood"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Controller/Component/VideosComponent.php",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"default.ctp",
+				"lib/Cake/Test/test_app/View/Elements/Flash/default.ctp"
+			],
+			[
+				"navt",
+				"app/View/Elements/navigation.ctp"
+			],
+			[
+				"servicescon",
+				"saude-e-vida.app/app/Controller/ServicesController.php"
+			],
+			[
+				"home.ctp",
+				"app/View/Pages/home.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}

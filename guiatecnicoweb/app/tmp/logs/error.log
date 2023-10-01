@@ -1,0 +1,2542 @@
+2015-07-15 02:48:12 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-15 02:48:18 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-15 02:48:20 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-15 02:48:21 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-15 02:48:22 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-15 02:48:24 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-07-16 03:26:35 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(7): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-10-24 22:52:16 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /fastapps/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#4 /Applications/MAMP/htdocs/fastapps/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#5 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#7 /Applications/MAMP/htdocs/fastapps/app/View/Users/login.ctp(8): FormHelper->create('User', Array)
+#8 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(971): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/fastapps/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#12 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-10-24 23:51:16 Error: [MissingActionException] Action ApiController::getallphotos() could not be found.
+Exception Attributes: array (
+  'controller' => 'ApiController',
+  'action' => 'getallphotos',
+)
+Request URL: /fastapps/api/getallphotos
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-25 15:43:21 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /fastapps/%3Cpre%20class=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 18:33:31 Error: Fatal Error (1): Call to undefined method GalleriesComponent::Getallgaleries() in [/Applications/MAMP/htdocs/fastapps/app/Controller/ApiController.php, line 32]
+2015-10-25 18:33:31 Error: [FatalErrorException] Call to undefined method GalleriesComponent::Getallgaleries()
+Request URL: /fastapps/api/galleries/getallgaleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-25 18:33:33 Error: Fatal Error (1): Call to undefined method GalleriesComponent::Getallgaleries() in [/Applications/MAMP/htdocs/fastapps/app/Controller/ApiController.php, line 32]
+2015-10-25 18:33:33 Error: [FatalErrorException] Call to undefined method GalleriesComponent::Getallgaleries()
+Request URL: /fastapps/api/galleries/getallgaleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-25 18:33:34 Error: Fatal Error (1): Call to undefined method GalleriesComponent::Getallgaleries() in [/Applications/MAMP/htdocs/fastapps/app/Controller/ApiController.php, line 32]
+2015-10-25 18:33:34 Error: [FatalErrorException] Call to undefined method GalleriesComponent::Getallgaleries()
+Request URL: /fastapps/api/galleries/getallgaleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-25 18:34:00 Error: Fatal Error (1): Call to undefined method PatrocinatorsComponent::GetAllGalleries() in [/Applications/MAMP/htdocs/fastapps/app/Controller/ApiController.php, line 32]
+2015-10-25 18:34:00 Error: [FatalErrorException] Call to undefined method PatrocinatorsComponent::GetAllGalleries()
+Request URL: /fastapps/api/patrocinators/getAllGalleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 02:48:50 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Applications/MAMP/htdocs/fastapps/app/Controller/ChurchesController.php, line 116]
+2016-05-16 02:48:50 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /fastapps/churches
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 116, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 116, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-18 03:21:13 Error: [MissingActionException] Action ChurchesController::getallchurches() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChurchesController',
+  'action' => 'getallchurches',
+)
+Request URL: /fastapps/churches/getallchurches
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChurchesController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-18 03:42:48 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /fastapps/categories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-18 03:45:09 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /fastapps/categories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-18 03:45:11 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /fastapps/categories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-18 03:45:58 Error: Fatal Error (64): Cannot redeclare class Gallery in [/Applications/MAMP/htdocs/fastapps/app/Model/Category.php, line 80]
+2016-05-18 03:45:58 Error: [FatalErrorException] Cannot redeclare class Gallery
+Request URL: /fastapps/categories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 80)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 80, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 80, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-18 03:47:30 Error: Fatal Error (64): Cannot redeclare class Gallery in [/Applications/MAMP/htdocs/fastapps/app/Model/Category.php, line 80]
+2016-05-18 03:47:30 Error: [FatalErrorException] Cannot redeclare class Gallery
+Request URL: /fastapps/categories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 80)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 80, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 80, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-18 04:26:52 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=Controller',
+  'plugin' => NULL,
+)
+Request URL: /fastapps/%3Cpre%20class=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-18 04:42:33 Error: [NotFoundException] Álbum inválido
+Request URL: /fastapps/categories/view/%3Cpre%20class=
+Stack Trace:
+#0 [internal function]: CategoriesController->view('<pre class=')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-18 04:57:25 Error: [NotFoundException] Álbum inválido
+Request URL: /fastapps/categories/view/%3Cpre%20class=
+Stack Trace:
+#0 [internal function]: CategoriesController->view('<pre class=')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-19 02:54:07 Error: [NotFoundException] Álbum inválido
+Request URL: /fastapps/categories/view/%3Cpre%20class=
+Stack Trace:
+#0 [internal function]: CategoriesController->view('<pre class=')
+#1 /Applications/MAMP/htdocs/fastapps/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/fastapps/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-19 03:13:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/fastapps/app/Controller/ChurchesController.php, line 57]
+2016-05-19 03:13:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fastapps/churches/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 57, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 57, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-19 13:58:45 Error: Fatal Error (1): Call to undefined method ChurchesComponent::Getallcategories() in [/Applications/MAMP/htdocs/fastapps/app/Controller/ApiController.php, line 32]
+2016-05-19 13:58:45 Error: [FatalErrorException] Call to undefined method ChurchesComponent::Getallcategories()
+Request URL: /fastapps/api/churches/getallcategories
+Stack Trace:
+#0 /Applications/MAMP/htdocs/fastapps/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/fastapps/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-23 00:59:06 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/users/login
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 C:\wamp64\www\guiatecnicoweb\app\View\Users\login.ctp(8): FormHelper->create('User', Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\g...')
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\g...', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-25 23:08:09 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/posts
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('created')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Post), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\PostsController.php(33): PaginatorComponent->paginate()
+#6 [internal function]: PostsController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-25 23:23:16 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/posts
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('created')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Post), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\PostsController.php(33): PaginatorComponent->paginate()
+#6 [internal function]: PostsController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-25 23:25:02 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/churches
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ChurchesController.php(31): PaginatorComponent->paginate()
+#5 [internal function]: ChurchesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ChurchesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChurchesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:26:20 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/churches
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ChurchesController.php(31): PaginatorComponent->paginate()
+#5 [internal function]: ChurchesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ChurchesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChurchesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:26:53 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/churches
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ChurchesController.php(31): PaginatorComponent->paginate()
+#5 [internal function]: ChurchesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ChurchesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChurchesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:27:36 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/churches
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ChurchesController.php(31): PaginatorComponent->paginate()
+#5 [internal function]: ChurchesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ChurchesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChurchesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:27:40 Error: [MissingTableException] Table events for model Event was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'events',
+  'class' => 'Event',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('events')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\EventsController.php(35): PaginatorComponent->paginate(Array)
+#5 [internal function]: EventsController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:46:38 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-25 23:47:57 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-25 23:47:59 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/posts
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('created')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Post), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\PostsController.php(33): PaginatorComponent->paginate()
+#6 [internal function]: PostsController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-25 23:48:01 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-25 23:48:02 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-26 00:08:43 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-26 00:08:44 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-26 00:08:48 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-26 00:09:06 Error: [MissingControllerException] Controller class EventsController could not be found.
+Exception Attributes: array (
+  'class' => 'EventsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/events
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-26 00:09:14 Error: [MissingTableException] Table manuals for model Manual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'manuals',
+  'class' => 'Manual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(33): PaginatorComponent->paginate(Array)
+#5 [internal function]: ManualsController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-26 00:10:04 Error: [MissingTableException] Table manuals for model Manual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'manuals',
+  'class' => 'Manual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(33): PaginatorComponent->paginate(Array)
+#5 [internal function]: ManualsController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-11-26 00:20:53 Error: Fatal Error (4): syntax error, unexpected '$useTable' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\guiatecnicoweb\app\Model\Manual.php, line 8]
+2016-11-26 00:20:53 Error: [FatalErrorException] syntax error, unexpected '$useTable' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 8, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 8, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 00:22:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.church_id' in 'where clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(33): PaginatorComponent->paginate(Array)
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-26 00:22:54 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:23:42 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:24:14 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:26:03 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:26:36 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:26:47 Error: [MissingViewException] View file "Manuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Manuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-26 00:46:29 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 153]
+2016-11-26 00:46:30 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/manuals/delete/4
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 153, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 153, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 01:53:41 Error: Fatal Error (4): syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp64\www\guiatecnicoweb\app\Model\Manual.php, line 97]
+2016-11-26 01:53:41 Error: [FatalErrorException] syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 01:53:46 Error: Fatal Error (4): syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp64\www\guiatecnicoweb\app\Model\Manual.php, line 97]
+2016-11-26 01:53:46 Error: [FatalErrorException] syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 01:54:47 Error: Fatal Error (4): syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp64\www\guiatecnicoweb\app\Model\Manual.php, line 97]
+2016-11-26 01:54:47 Error: [FatalErrorException] syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 02:03:41 Error: Fatal Error (4): syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\wamp64\www\guiatecnicoweb\app\Model\Manual.php, line 97]
+2016-11-26 02:03:41 Error: [FatalErrorException] syntax error, unexpected ''TipoManual'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 97, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 02:04:21 Error: [MissingTableException] Table categorias for model Categoria was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categorias',
+  'class' => 'Categoria',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categorias')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(Categoria), 'Categoria', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(Categoria), 'belongsTo', 'Categoria', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:05:05 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:05:19 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:07:44 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:22:37 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:24:53 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:24:56 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:25:22 Error: [MissingTableException] Table tipo_manuals for model TipoManual was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipo_manuals',
+  'class' => 'TipoManual',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipo_manuals')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1743): DboSource->fields(Object(AppModel), 'TipoManual', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1095): DboSource->generateAssociationQuery(Object(Manual), Object(AppModel), 'belongsTo', 'TipoManual', Array, Array, false)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#9 [internal function]: ManualsController->index()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 02:31:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Categoria.id' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-26 02:57:28 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:02:58 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:07:00 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:09:59 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:12:20 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 83]
+2016-11-26 03:12:20 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 83, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 83, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-26 03:13:22 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:13:45 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:18:28 Error: [MissingTableException] Table churches for model Church was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'churches',
+  'class' => 'Church',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('churches')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(2519): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1759): DboSource->fields(Object(Church), 'Church', '')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->generateAssociationQuery(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1139): DboSource->queryAssociation(Object(Categoria), Object(Church), 'hasMany', 'Church', Array, Array, true, Array, 0, Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Categoria), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('all')
+#9 [internal function]: ManualsController->add()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#13 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-11-26 03:24:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TipoManual.church_id' in 'on clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(61): Model->find('all')
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-26 03:24:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TipoManual.codTipoManual' in 'on clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(61): Model->find('all')
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-26 03:24:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TipoManual.codTipoManual' in 'on clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(61): Model->find('all')
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-26 03:25:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TipoManual.codTipoManual' in 'on clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(61): Model->find('all')
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-26 03:25:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TipoManual.codtipomanual' in 'on clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(61): Model->find('all')
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-11-30 15:42:30 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 139]
+2016-11-30 15:42:30 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/manuals/delete/7
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 139, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 139, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-30 15:47:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codCategoria' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 15:47:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codCategoria' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 15:49:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codCategoria' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 15:49:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codCategoria' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 15:51:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codtipoManual_id' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 15:51:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Manual.codtipomanual_id' in 'on clause'
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Manual`...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Manual`...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `Manual`...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Manual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(30): PaginatorComponent->paginate()
+#8 [internal function]: ManualsController->index()
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#12 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-30 16:03:10 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 59]
+2016-11-30 16:03:10 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-30 16:03:12 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 59]
+2016-11-30 16:03:12 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-30 16:03:14 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 59]
+2016-11-30 16:03:14 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /guiatecnicoweb/manuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 59, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-30 21:24:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cod' in 'where clause'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `TipoMan...', Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `TipoMan...', Array, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Datasource\DboSource.php(1108): DboSource->fetchAll('SELECT `TipoMan...', false)
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): DboSource->read(Object(TipoManual), Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('list', Array)
+#6 C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php(60): Model->find('list', Array)
+#7 [internal function]: ManualsController->add()
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ManualsController), Array)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-12-01 14:16:17 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 70]
+2016-12-01 14:16:17 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /guiatecnicoweb/manuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 70, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 70, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 15:21:36 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:22:59 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:23:01 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:25:56 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:31:29 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:36:22 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(32): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:37:18 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(29): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:39:06 Error: [MissingTableException] Table messages for model Message was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'messages',
+  'class' => 'Message',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/messages
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('messages')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\MessagesController.php(29): PaginatorComponent->paginate()
+#5 [internal function]: MessagesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:39:09 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:40:11 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:43:38 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:45:27 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:52:13 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:52:58 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:53:06 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:54:51 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:58:45 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:59:21 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('categories')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriesController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: CategoriesController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 15:59:54 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:00:22 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriesController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/categories
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:00:25 Error: [MissingViewException] View file "Categorias\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categorias\\index.ctp',
+)
+Request URL: /guiatecnicoweb/categorias
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-03 16:00:56 Error: [MissingViewException] View file "Categorias\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categorias\\index.ctp',
+)
+Request URL: /guiatecnicoweb/categorias
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-03 16:01:00 Error: [MissingControllerException] Controller class CategoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriaController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/categoria
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:01:17 Error: [MissingControllerException] Controller class CategoriaController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoriaController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/categoria
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:01:22 Error: [MissingViewException] View file "Categorias\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categorias\\index.ctp',
+)
+Request URL: /guiatecnicoweb/categorias
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-03 16:04:10 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/posts
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('created')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Post), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\PostsController.php(33): PaginatorComponent->paginate()
+#6 [internal function]: PostsController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-03 16:04:44 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:05:28 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:05:31 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:05:50 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:05:52 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:05:54 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:06:51 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:06:53 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:07:02 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:07:04 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:08:02 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:08:03 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:08:05 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:11:38 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:12:09 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:12:11 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:12:21 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:12:22 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:13:16 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:13:18 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:14:12 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:14:13 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:16:03 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:16:06 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:17:03 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:17:05 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:18:23 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:19:31 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:39 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:41 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:42 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:43 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:44 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:21:44 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:22:18 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:22:20 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:22:21 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:22:25 Error: [MissingControllerException] Controller class TypesController could not be found.
+Exception Attributes: array (
+  'class' => 'TypesController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/types
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:24:16 Error: [MissingControllerException] Controller class TypesController could not be found.
+Exception Attributes: array (
+  'class' => 'TypesController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/types
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:24:18 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:36:20 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/galleries
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('galleries')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('modified')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Gallery), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\GalleriesController.php(37): PaginatorComponent->paginate()
+#6 [internal function]: GalleriesController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-03 16:36:27 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:38:18 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:38:20 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:38:33 Error: [MissingControllerException] Controller class TipomanualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipomanualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:38:34 Error: [MissingControllerException] Controller class TipoManualsController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoManualsController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipoManuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:41:37 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:42:20 Error: [MissingTableException] Table tipos for model Tipo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tipos',
+  'class' => 'Tipo',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('tipos')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#4 C:\wamp64\www\guiatecnicoweb\app\Controller\TiposController.php(28): PaginatorComponent->paginate()
+#5 [internal function]: TiposController->index()
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TiposController), Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TiposController), Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-03 16:43:09 Error: [MissingControllerException] Controller class TiposController could not be found.
+Exception Attributes: array (
+  'class' => 'TiposController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/tipos
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:43:33 Error: [MissingViewException] View file "TipoManuals\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'TipoManuals\\index.ctp',
+)
+Request URL: /guiatecnicoweb/tipomanuals
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoManualsController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-03 16:51:22 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/galleries
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('galleries')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('modified')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Gallery), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\GalleriesController.php(37): PaginatorComponent->paginate()
+#6 [internal function]: GalleriesController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-03 16:51:35 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/galleries
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('galleries')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(400): Model->hasField('modified')
+#4 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Component\PaginatorComponent.php(142): PaginatorComponent->validateSort(Object(Gallery), Array, Array)
+#5 C:\wamp64\www\guiatecnicoweb\app\Controller\GalleriesController.php(37): PaginatorComponent->paginate()
+#6 [internal function]: GalleriesController->index()
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest))
+#10 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-03 16:51:39 Error: [MissingControllerException] Controller class MarcasController could not be found.
+Exception Attributes: array (
+  'class' => 'MarcasController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/marcas
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:51:41 Error: [MissingControllerException] Controller class MarcasController could not be found.
+Exception Attributes: array (
+  'class' => 'MarcasController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/marcas
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 16:51:42 Error: [MissingControllerException] Controller class MarcasController could not be found.
+Exception Attributes: array (
+  'class' => 'MarcasController',
+  'plugin' => NULL,
+)
+Request URL: /guiatecnicoweb/marcas
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-03 17:00:06 Error: Fatal Error (1): Call to a member function create() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriasController.php, line 56]
+2016-12-03 17:00:06 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /guiatecnicoweb/categorias/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 17:06:23 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/marcas/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('galleries')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Gallery', 'fields')
+#4 C:\wamp64\www\guiatecnicoweb\app\View\Marcas\add.ctp(27): FormHelper->create('Gallery', Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\g...')
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\g...', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MarcasController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-12-03 17:06:35 Error: [MissingTableException] Table devices for model Device was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'devices',
+  'class' => 'Device',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/tipoManuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('devices')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Device', 'fields')
+#4 C:\wamp64\www\guiatecnicoweb\app\View\TipoManuals\add.ctp(28): FormHelper->create('Device', Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\g...')
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\g...', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoManualsController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-12-03 17:07:45 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /guiatecnicoweb/marcas/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(3644): Model->setSource('galleries')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Gallery', 'fields')
+#4 C:\wamp64\www\guiatecnicoweb\app\View\Marcas\add.ctp(27): FormHelper->create('Gallery', Array)
+#5 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\g...')
+#6 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\g...', Array)
+#7 C:\wamp64\www\guiatecnicoweb\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\g...')
+#8 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#9 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#10 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MarcasController), Object(CakeRequest))
+#11 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-12-03 17:11:12 Error: Fatal Error (1): Call to a member function create() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\TipoManualsController.php, line 56]
+2016-12-03 17:11:12 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /guiatecnicoweb/tipoManuals/add
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 56, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 17:16:11 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\TipoManualsController.php, line 42]
+2016-12-03 17:16:11 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/tipoManuals/view/1
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 21:38:26 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 166]
+2016-12-03 21:38:26 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+Request URL: /guiatecnicoweb/manuals/delete/25
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 166)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 166, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\g...', 166, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 21:39:42 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 96]
+2016-12-03 21:39:42 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/manuals/edit/26
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 96, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 96, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 21:39:47 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\ManualsController.php, line 44]
+2016-12-03 21:39:47 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/manuals/view/26
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 44, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 44, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-03 21:49:23 Error: [NotFoundException] Categoria inválida
+Request URL: /guiatecnicoweb/categorias/edit/1
+Stack Trace:
+#0 [internal function]: CategoriasController->edit('1')
+#1 C:\wamp64\www\guiatecnicoweb\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest))
+#4 C:\wamp64\www\guiatecnicoweb\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-03 21:49:41 Error: Fatal Error (1): Call to a member function exists() on null in [C:\wamp64\www\guiatecnicoweb\app\Controller\CategoriasController.php, line 42]
+2016-12-03 21:49:41 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /guiatecnicoweb/categorias/view/3
+Stack Trace:
+#0 C:\wamp64\www\guiatecnicoweb\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42, Array)
+#2 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\g...', 42, Array)
+#3 C:\wamp64\www\guiatecnicoweb\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
